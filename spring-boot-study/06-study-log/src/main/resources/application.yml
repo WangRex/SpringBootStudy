@@ -1,0 +1,6 @@
+logging:
+  level:
+    root: error
+    com.boot.study.controller: error
+  file: logs/mylog123.log
+#  config: classpath:my.xml

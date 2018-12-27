@@ -1,0 +1,11 @@
+server:
+  port: ${port:8080}
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/study
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  typeAliasesPackage: com.boot.study.model
+  mapperLocations: classpath:/mybatis/*
